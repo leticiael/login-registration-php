@@ -1,0 +1,64 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh; 
+    margin: 0;
+    background-color: #dcd5e3;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+form {
+    width: 450px; 
+    padding: 20px;
+    background: rgba(173, 136, 198, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: black;
+    font-size: 24px; 
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="date"],
+input[type="file"],
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    font-size: 18px; 
+}
+
+input[type="submit"] {
+    background-color: #AD88C6;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    padding: 12px 20px; 
+}
+
+a {
+    font-size: 16px; 
+    color: #734493;
+}
+
+a:hover {
+    text-decoration: underline;
+}
