@@ -6,13 +6,34 @@
     <link rel="stylesheet" href="css/stylecad.css">
     <link rel="stylesheet" href="css/stylelogin.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@600&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@600&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <script>
+        function validarForm() {
+            var nome = document.getElementById('nome').value.trim();
+            var email = document.getElementById('email').value.trim();
+            var senha = document.getElementById('senha').value.trim();
+            var data_nascimento = document.getElementById('data_nascimento').value.trim();
+            var foto = document.getElementById('foto').value.trim();
+            
+        
+            if (senha.length < 8) {
+                alert('A senha deve ter no mínimo 8 caracteres.');
+                return false;
+            }
 
+            if (nome === '' || email === '' || senha === '' || data_nascimento === '' || foto === '') {
+                alert('Por favor, preencha todos os campos.');
+                return false;
+            }
+            
+            return true;
+        }
+    </script>
 </head>
 <body>
     <div class="container">
-        <form method="POST" action="php/cadastro.php" enctype="multipart/form-data">
+        <form method="POST" action="php/cadastro.php" enctype="multipart/form-data" onsubmit="return validarForm()">
             <h2>Cadastro de Usuário</h2>
             <label for="nome">Nome:</label><br>
             <input type="text" id="nome" name="nome" required><br>
@@ -36,4 +57,7 @@
     </div>
 </body>
 </html>
+
+
+
 
