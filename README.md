@@ -14,10 +14,10 @@ Este é um projeto de sistema de login e cadastro desenvolvido em PHP para geren
 ## Telas do Sistema
 
 ### Tela de Cadastro (cadimg)
-![Tela de Cadastro](imgs/cadimg.png)
+![Tela de Cadastro](src/imgs/cadimg.png)
 
 ### Tela de Login (loginimg)
-![Tela de Login](imgs/loginimg.png)
+![Tela de Login](src/imgs/loginimg.png)
 
 ## Funcionalidades
 
