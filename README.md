@@ -30,7 +30,7 @@ Este é um projeto de sistema de login e cadastro desenvolvido em PHP para geren
 
 1. Clone este repositório para o seu ambiente de desenvolvimento local.
 2. Configure o XAMPP para executar o servidor Apache e o MySQL.
-3. Importe o arquivo SQL (`database.sql`) fornecido utilizando o PHPMyAdmin para criar a estrutura do banco de dados.
+3. Importe o arquivo SQL (`Database_Model.sql`) fornecido utilizando o PHPMyAdmin para criar a estrutura do banco de dados.
 4. Acesse o sistema através do seu navegador para testar as funcionalidades de login e cadastro.
 
 ## Personalização
