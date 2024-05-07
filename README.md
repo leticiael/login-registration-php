@@ -63,5 +63,5 @@ O sistema é rápido e fácil de personalizar. Você pode ajustar a interface, a
 Contribuições são bem-vindas! Sinta-se à vontade para enviar pull requests e sugerir melhorias para o projeto.
 
 ## Licença
-
+Criação e Desenvolvimento: Letícia Eltermann
 Este projeto está sob a licença [MIT](LICENSE).
