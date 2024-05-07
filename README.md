@@ -2,14 +2,17 @@
 
 Este é um projeto de sistema de login e cadastro desenvolvido em PHP para gerenciar o acesso de usuários a um sistema web. O sistema possui uma interface simples e é rápido para personalizar e integrar a outros projetos.
 
+
 ## Tecnologias Utilizadas
 
-- XAMPP
-- Apache
-- PHP
-- MySQL (utilizando PHPMyAdmin)
+- PHP 
+- JavaScript 
+- XAMPP 
+  - Apache 
+  - MySQL 
 - HTML
 - CSS
+
 
 ## Telas do Sistema
 
@@ -18,6 +21,24 @@ Este é um projeto de sistema de login e cadastro desenvolvido em PHP para geren
 
 ### Tela de Cadastro (cadimg)
 ![Tela de Cadastro](src/img/cadimg.png)
+## Funcionalidades Adicionais
+
+### Cadastro de Produtos
+
+![Cadastro de Produtos](src/img/cadprodimg.png)
+
+- Permite aos usuários cadastrar novos produtos no sistema.
+- Informações como nome do produto, quantidade, tipo e valor são inseridas através deste formulário.
+- A imagem acima representa a tela de cadastro de produtos no sistema.
+
+### Visualização e Exclusão de Produtos
+
+![Visualização e Exclusão de Produtos](src/img/prodimg.png)
+
+- Os produtos cadastrados são exibidos em uma lista para visualização.
+- Cada produto é apresentado em uma caixa com informações detalhadas.
+- Também é possível excluir produtos diretamente desta tela.
+
 
 ## Funcionalidades
 
