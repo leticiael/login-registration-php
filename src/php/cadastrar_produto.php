@@ -16,7 +16,7 @@ if (!isset($_SESSION['email'])) {
     exit();
 }
 
-// Verifica se o formulário foi enviado
+
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $nome_produto = $_POST['nome_produto'];
     $quantidade = $_POST['quantidade'];
